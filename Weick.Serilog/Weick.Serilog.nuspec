@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Weick.Serilog</id>
+    <version>1.0.0</version>
+    <authors>weichangk</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/weichangk/Weick.Serilog</projectUrl>
+    <description>Use Serilog</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright @2022</copyright>
+    <tags>logging Serilog</tags>
+    <dependencies>
+        <dependency id="Serilog.AspNetCore" version="3.2.0" />
+        <dependency id="Serilog.Settings.Configuration" version="3.1.0" />
+        <dependency id="Serilog.Sinks.Console" version="3.1.1" />
+        <dependency id="Serilog.Sinks.File" version="4.1.0" />
+    </dependencies>
+  </metadata>
+</package>
